@@ -1,0 +1,32 @@
+{
+  "name": "learnwebpack",
+  "version": "1.0.0",
+  "description": "Learning WebPack",
+  "main": "bundle.js",
+  "dependencies": {
+    "css-loader": "^0.21.0",
+    "react-hot-loader": "^1.3.0",
+    "style-loader": "^0.13.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.33",
+    "babel-loader": "^5.3.3",
+    "path": "^0.12.7",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smarigowda/learnWebPack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smarigowda/learnWebPack/issues"
+  },
+  "homepage": "https://github.com/smarigowda/learnWebPack#readme"
+}

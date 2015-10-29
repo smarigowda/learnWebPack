@@ -1,1 +1,1 @@
-module.exports = "it works from content.js as well...";
+module.exports = "....content.js live hot...";
