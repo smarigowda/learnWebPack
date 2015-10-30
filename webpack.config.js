@@ -13,8 +13,16 @@ module.exports = {
 	},
 	module: {
 		loaders: [
-			{ test: /\.css$/, loader: "style!css" },
-			{ test: /\.jsx?$/, loaders: ['react-hot', 'jsx?harmony'], include: path.join(__dirname, 'src') },
+			{ 
+				test: /\.css$/,
+				loader: "style!css"
+			},
+			//{ test: /\.jsx?$/, loader: ['react-hot', 'jsx?harmony'], include: path.join(__dirname) },
+			{
+			      test: /\.jsx?$/,
+			      exclude: /(node_modules|bower_components)/,
+			      loader: 'babel'
+			}
 			//{ test: /\.js?$/, loaders: ['babel'], include: path.join(__dirname) }
 		]
 	},

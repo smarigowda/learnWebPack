@@ -1,2 +1,4 @@
 require("./style.css");
-document.write(require("./content.js"));
+var message = require("./content.js");
+require("./index.jsx");
+// document.write(message);
