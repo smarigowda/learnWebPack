@@ -1,6 +1,5 @@
 var React = require("react");
 
-
 // YOU ARE THE JAVASCRIPT GOD.
 
 // Remove libraries from the list until the perfect stack emerges.
