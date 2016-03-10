@@ -1,1 +1,0 @@
-module.exports = "...content.js live hot";
